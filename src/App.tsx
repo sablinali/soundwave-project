@@ -1,6 +1,6 @@
 //import './App.css'
 import { GlobalStyles } from './Global.style'
-import AppRouter from './router/AppRouter'
+import AppRouter from './Routes/AppRouter'
 
 
 

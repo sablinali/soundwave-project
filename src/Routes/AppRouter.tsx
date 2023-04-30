@@ -10,13 +10,12 @@ type Props = {}
 const AppRouter = (props: Props) => {
   return (
     <>
-    <BrowserRouter>   
+    <BrowserRouter> 
+    <Layout />  
         <Routes>
-            <Route element={<Layout />} >
-            <Route path="/" element={<Homepage />} />
+            <Route index element={<Homepage />} />
             <Route path="/discover" element={<DiscoverPage />} />
             <Route path="/join" element={<JoinPage />} />
-            </Route>
         </Routes>
     </BrowserRouter>
     </>

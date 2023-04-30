@@ -13,7 +13,7 @@ const Layout = (props: Props) => {
     <main>
        <Outlet/>
     </main>
-    <Footer/>
+    
     
     </>
   )
