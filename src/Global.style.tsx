@@ -2,14 +2,20 @@ import styled, { createGlobalStyle } from "styled-components";
 
 export const theme = {
     whiteText: '#ffffff', 
+    generalBackground: '#302E3A', 
+    darkBackground: '#211f27', 
+    buttonBackground: '#0451A9', 
+    buttonHover: '#2180D8', 
+    buttonFocus: '#2796FF'
 }
 
 export const GlobalStyles = createGlobalStyle`
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
 
+    
+
     *{
-        background-color: #2F303A;
         text-decoration: none;
         margin: 0;
         padding: 0;
@@ -20,8 +26,9 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body{
-        color: ${theme.whiteText};
-       
+        background-color: ${theme.generalBackground};
+        color: ${theme.whiteText}; 
+        position: relative;
     }
 
     /* #root{

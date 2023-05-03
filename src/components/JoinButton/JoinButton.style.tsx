@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import { theme } from '../../Global.style'
 
 export const StyledJoinButton = styled.button`
-    background-color: '#0451A9';
+    background-color: ${theme.buttonBackground};
     font-size: medium;
     font-weight: 200;
     padding: 1rem 2rem;
@@ -10,9 +11,9 @@ export const StyledJoinButton = styled.button`
     inline-size: fit-content;
     margin-left: 0;
     &:hover {
-        background-color: '#2180D8';
+        background-color: ${theme.generalBackground};
     }
     &:focus {
-        background-color: '#2796FF';
+        background-color: ${theme.buttonFocus};
     }
 `
