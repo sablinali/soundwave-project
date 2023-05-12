@@ -7,7 +7,12 @@ export const HomeContainer = styled.section`
    width: 80vw;
    height: 80vh;
    display: flex;
-   justify-content: center;
+   justify-content: space-evenly;
+   margin-left: 100px;
+   @media screen and (max-width:700px){
+        margin-left: 2rem;
+    }
+  
 `
 export const GirlImg = styled.img`
     width: 30vw;
@@ -18,6 +23,8 @@ export const GirlImg = styled.img`
 export const TextDiv = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: center;
+   
     
 `
 export const H3= styled.h1`

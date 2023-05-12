@@ -33,6 +33,7 @@ export const Div1 = styled.div`
     @media screen and (max-width:700px){
         display: flex;
         justify-content: space-around;
+        margin-left: 2rem;
     }
     
 `
