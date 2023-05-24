@@ -23,11 +23,9 @@ export const GirlImg = styled.img`
 export const TextDiv = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
-   
-    
+    justify-content: center;  
 `
-export const H3= styled.h1`
+export const H1= styled.h1`
     font-size: 45px;
 `
 export const Ptext= styled.p`
