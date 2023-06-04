@@ -6,7 +6,8 @@ export const theme = {
     darkBackground: '#211f27', 
     buttonBackground: '#0451A9', 
     buttonHover: '#2180D8', 
-    buttonFocus: '#2796FF'
+    buttonFocus: '#2796FF',
+    accentText: '#D3007B'
 }
 
 export const GlobalStyles = createGlobalStyle`
