@@ -2,7 +2,7 @@ import React from 'react'
 import 'react-router-dom'
 import Footer from '../../components/Footer/Footer'
 import { H1 } from '../Homepage/Homepage.style'
-import { CoversImg, DiscoverContainer, DiscoverIcons, IconDiv, IconImg } from './Discover.style'
+import { CoversImg, DiscoverContainer, DiscoverIcons, IconDiv, IconImg, TextIconsDiv } from './Discover.style'
 import Charts from '../../assets/microphone.svg'
 import Albums from '../../assets/albums.svg'
 import More from '../../assets/more.svg'
@@ -14,10 +14,11 @@ const Discover = (props: Props) => {
   return (
     <>
       <DiscoverContainer>
-        <div>
-            <DiscoverIcons>
-                <H1>Discover new music</H1>
+         <TextIconsDiv>
+            <H1>Discover new music</H1>
 
+            <DiscoverIcons>
+                
                 <IconDiv>
                     <IconImg src={Charts} />
                     <p>Charts</p>
@@ -35,11 +36,13 @@ const Discover = (props: Props) => {
 
             </DiscoverIcons>
 
-        </div>   
+            <p>By joining you can benefit by listening to the latest albums released.</p>
 
-            <CoversImg src={Covers}/>
+         </TextIconsDiv>   
 
-    </DiscoverContainer>
+         <CoversImg src={Covers}/>
+
+      </DiscoverContainer>
 
     <Footer />
     </>
