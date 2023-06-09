@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
-import { H1Join, SpanColoured } from './JoinPage.style'
+import { Form, H1Join, JoinContainer, SpanColoured } from './JoinPage.style'
 
 
 type Props = {}
@@ -8,8 +8,15 @@ type Props = {}
 const Join = (props: Props) => {
   return (
     <>
-    <H1Join>Join the <SpanColoured>fun.</SpanColoured></H1Join>
-    <Footer/>
+    <JoinContainer>
+      <H1Join>Join the <SpanColoured>fun.</SpanColoured></H1Join>
+
+      <Form>
+        
+      </Form>
+
+    </JoinContainer>
+    <Footer />
     </>
   )
 }

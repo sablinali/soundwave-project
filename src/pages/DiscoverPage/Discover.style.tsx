@@ -14,14 +14,12 @@ export const DiscoverContainer = styled.section`
         display: flex;
         flex-direction: column;
     }
-  
 `
 
 export const TextIconsDiv = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    
+    gap: 20px; 
 `
 
 export const DiscoverIcons = styled.div`
