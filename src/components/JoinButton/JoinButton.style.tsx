@@ -17,4 +17,19 @@ export const StyledJoinButton = styled.button`
     &:focus {
         background-color: ${theme.buttonFocus};
     }
+    
+`
+
+export const StyledLargeJoinButton = styled.button`
+    background-color: ${theme.buttonBackground};
+    font-size: medium;
+    font-weight: 200;
+    padding: 0.8rem 2rem;
+    border-radius: 10px;
+    display: flex;
+
+    &:hover {
+        background-color: ${theme.generalBackground};
+    }
+    
 `

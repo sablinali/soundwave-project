@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { StyledJoinButton } from './JoinButton.style'
+import { StyledJoinButton, StyledLargeJoinButton } from './JoinButton.style'
 
 
 type Props = {}
@@ -13,3 +13,10 @@ const JoinButton = (props: Props) => {
 }
 
 export default JoinButton
+
+export function LargeJoinButton () {
+  return (
+    <StyledLargeJoinButton><Link to={'/join'}>Join Now</Link></StyledLargeJoinButton>
+  )
+}
+

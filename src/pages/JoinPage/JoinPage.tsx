@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 import { Form, H1Join, JoinContainer, SpanColoured } from './JoinPage.style'
-import JoinButton from '../../components/JoinButton/JoinButton'
+import  { LargeJoinButton } from '../../components/JoinButton/JoinButton'
 
 
 type Props = {}
@@ -19,8 +19,8 @@ const Join = (props: Props) => {
         <input type="text" id="email" name="email"></input>
         <label htmlFor="password">Password:</label>
         <input type="text" id="password" name="password"></input>
-      <JoinButton/>
-
+      
+      <LargeJoinButton/>
       </Form>
 
     </JoinContainer>
