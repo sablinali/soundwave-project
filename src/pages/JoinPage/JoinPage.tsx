@@ -19,7 +19,7 @@ const Join = (props: Props) => {
         <input type="text" id="email" name="email"></input>
         <label htmlFor="password">Password:</label>
         <input type="text" id="password" name="password"></input>
-      
+      <br></br>
       <LargeJoinButton/>
       </Form>
 
