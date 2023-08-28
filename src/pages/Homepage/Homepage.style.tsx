@@ -35,3 +35,22 @@ export const GirlDiv = styled.div`
     display: flex;
     align-items: end;
 `
+
+export const PinkBubble = styled.div`
+    background-color: #bc3a801a;
+    width: 450px;
+    height: 360px;
+    border-radius: 60%;
+`
+
+export const BlueBubble = styled.div`
+    background-color:#3457b21a;
+    width: 450px;
+    height: 360px;
+    border-radius: 60%;
+`
+
+export const BigBlueBubble = styled.div`
+    background-color:#3457b21a,
+    
+`

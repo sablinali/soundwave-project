@@ -22,7 +22,7 @@ export const H1Join = styled.h1`
 `
 
 export const Form = styled.form`
-    background-color:'#211f27';
+    background-color: #202027;
     min-width: 500px;
     display: flex;
     flex-direction: column;
@@ -31,9 +31,12 @@ export const Form = styled.form`
     border-radius: 15px;
     @media screen and (max-width:700px){
         min-width: 350px;
-        padding: 30px 50px
+        padding: 30px 50px;
+        background-color:#202027;
+       
     }
 `
+
 
 export const SpanColoured = styled.h1`
     color: ${theme.accentText};
