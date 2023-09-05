@@ -38,19 +38,65 @@ export const GirlDiv = styled.div`
 
 export const PinkBubble = styled.div`
     background-color: #bc3a801a;
-    width: 450px;
-    height: 360px;
-    border-radius: 60%;
+    width: 550px; 
+    height: 550px; 
+    border-radius: 50%; 
+    position: fixed; 
+    bottom: 10%; 
+    left: 1%;
+    z-index: -1;
+    @media screen and (max-width:1700px){
+        width: 300px;
+        height: 300px;
+    }
+    @media screen and (max-width:700px){
+        width: 100px;
+        height: 100px;
+    }
+    
 `
 
 export const BlueBubble = styled.div`
     background-color:#3457b21a;
-    width: 450px;
-    height: 360px;
-    border-radius: 60%;
+    width: 550px; 
+    height: 550px; 
+    border-radius: 50%; 
+    position: fixed; 
+    top: 15%; 
+    left: 27%; 
+    z-index: -1;
+    @media screen and (max-width:1700px){
+        width: 300px;
+        height: 300px;
+        bottom: -10%; 
+        right: -10%;
+    }
+    @media screen and (max-width:700px){
+        width: 100px;
+        height: 100px;
+    }
 `
 
 export const BigBlueBubble = styled.div`
-    background-color:#3457b21a,
+    background-color:#3457b21a;
+    width: 1200px; 
+    height: 1200px; 
+    border-radius: 50%; 
+    position: fixed; 
+    bottom: -60%; 
+    right: -20%;
+    z-index: -1;
+    @media screen and (max-width:1700px){
+        width: 600px;
+        height: 600px;
+        bottom: -10%; 
+        right: -10%;
+    }
+    @media screen and (max-width:700px){
+        width: 200px;
+        height: 200px;
+        bottom: -10%; 
+        right: -20%;
+    }
     
 `
