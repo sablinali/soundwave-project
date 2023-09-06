@@ -33,6 +33,7 @@ export const Form = styled.form`
         min-width: 350px;
         padding: 30px 50px;
         background-color:#202027;
+        margin-left: 5%;
        
     }
 `
