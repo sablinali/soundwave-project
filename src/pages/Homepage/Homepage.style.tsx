@@ -36,7 +36,7 @@ export const GirlDiv = styled.div`
     align-items: end;
 `
 
-export const PinkBubble = styled.div`
+export const HomePinkBubble = styled.div`
     background-color: #bc3a801a;
     width: 550px; 
     height: 550px; 
@@ -56,7 +56,7 @@ export const PinkBubble = styled.div`
     
 `
 
-export const BlueBubble = styled.div`
+export const HomeBlueBubble = styled.div`
     background-color:#3457b21a;
     width: 550px; 
     height: 550px; 
@@ -77,7 +77,7 @@ export const BlueBubble = styled.div`
     }
 `
 
-export const BigBlueBubble = styled.div`
+export const HomeBigBlueBubble = styled.div`
     background-color:#3457b21a;
     width: 1200px; 
     height: 1200px; 

@@ -1,7 +1,7 @@
 import React from 'react'
 import girl from '../../assets/girl.png'
 import JoinButton from '../../components/JoinButton/JoinButton'
-import { BigBlueBubble, BlueBubble, GirlDiv, GirlImg, H1, HomeContainer, PinkBubble, Ptext, TextDiv } from './Homepage.style'
+import { GirlDiv, GirlImg, H1, HomeBigBlueBubble, HomeBlueBubble, HomeContainer, HomePinkBubble, Ptext, TextDiv } from './Homepage.style'
 
 type Props = {}
 
@@ -9,9 +9,9 @@ const Homepage = (props: Props) => {
   return (
     <HomeContainer>
 
-          <PinkBubble></PinkBubble>
-          <BlueBubble></BlueBubble>
-          <BigBlueBubble></BigBlueBubble>
+          <HomePinkBubble></HomePinkBubble>
+          <HomeBlueBubble></HomeBlueBubble>
+          <HomeBigBlueBubble></HomeBigBlueBubble>
           <GirlDiv>
               <GirlImg src={girl} alt='a girl listening to music'/>
           </GirlDiv>

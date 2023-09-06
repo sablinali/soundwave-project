@@ -24,6 +24,7 @@ export const StyledLargeJoinButton = styled.button`
     background-color: ${theme.buttonBackground};
     font-size: medium;
     font-weight: 200;
+    justify-content: center;
     padding: 0.8rem 2rem;
     border-radius: 10px;
     display: flex;
