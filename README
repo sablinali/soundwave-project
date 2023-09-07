@@ -1,0 +1,12 @@
+SOUNDWAVE 
+
+Soundwave was a project to create a music app interface with React and Typescript. It is responsive either in a computer or mobile screen. The routes were done with React-Router-DOM and the styles were developed with Styled Components.
+
+This app was developed with React Vite. To start, I ran $ npm create vite@latest
+
+It has three pages (Homepage, DiscoverPage and JoinPage) and three components (NavTop, JoinButtom and Footer). 
+
+
+
+
+
