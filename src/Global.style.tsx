@@ -32,9 +32,9 @@ export const GlobalStyles = createGlobalStyle`
         position: relative;
     }
 
-    /* #root{
-        margin: auto;
-    } */
+    #root{
+        height: 100vh;
+    }
 
    
 `

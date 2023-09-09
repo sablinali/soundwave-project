@@ -5,7 +5,7 @@ import  {GlobalStyles}  from '../../Global.style'
 
 export const HomeContainer = styled.section`
    width: 80vw;
-   height: 80vh;
+   height: 90vh;
    display: flex;
    justify-content: space-evenly;
    margin-left: 100px;

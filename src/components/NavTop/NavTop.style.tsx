@@ -13,7 +13,7 @@ export const LogoImg = styled.img`
 export const Nav = styled.div`
     z-index: 999;
     width: 100vw;
-    height: 100px;
+    height: 10vh;
     display: flex;
     align-content: center;
     align-items: center;
