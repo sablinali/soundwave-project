@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import  {GlobalStyles}  from '../../Global.style'
+import  {GlobalStyles, theme}  from '../../Global.style'
 
 export const DiscoverContainer = styled.section`
    width: 80vw;
@@ -20,6 +20,10 @@ export const TextIconsDiv = styled.div`
     display: flex;
     flex-direction: column;
     gap: 20px; 
+`
+export const H1Pink = styled.h1`
+    color: ${theme.accentText};
+    font-size: 45px;
 `
 
 export const DiscoverIcons = styled.div`
