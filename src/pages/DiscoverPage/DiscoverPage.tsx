@@ -16,7 +16,7 @@ const Discover = (props: Props) => {
     <>
       <DiscoverContainer>
          <TextIconsDiv>
-            <H1Pink>Discover new music</H1Pink>
+            <H1Pink>Discover new songs</H1Pink>
 
             <DiscoverIcons>
                 
